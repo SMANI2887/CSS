@@ -4,11 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CSS Demo</title>
+        <style>
+            .p{
+                color: red;
+                font-style: italic;
+            }
+            #id{
+                color: green;
+                font-weight: bolder;
+            
+            }
+
+            .p2{
+                color: blue;
+                font-weight: bolder;
+            }
+        </style>
     </head>
     <body>
-        <!-- compare to inline - internal -> high peroid (inline) 
-             internal to tag  -  id  -> high period (id)
-             id selector more than id selector last id high peroid-->
-<div style="background-color: #f2f2f2; padding: 10px; border: #333 2px solid;">"Welcome to our website!"</p>
+        <!-- compare to inline - internal -> high priority (inline) 
+             internal to tag  -  id  -> high priority (id)
+             id selector more than id selector last id high priority-->
+<div class="p">"Welcome to our website!"</p>
+<div id="id">"Welcome to our website!"</p>
+<div class="p2">"Welcome to our website!"</p>
     </body> 
 </html>
