@@ -1,7 +1,3 @@
-#headingID{
-    color: red !important;
-}
-
-.headingClass{
-    color: blue;
+div{
+    display: inline;
 }
