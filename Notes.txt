@@ -1,0 +1,12 @@
+Contents:
+box model: padding,margin,border 
+Flex - display, direction, wrap, flex-flow, justify-content, align-content
+position property: fixed,static,relative,absolute,sticky
+parent inherit 
+gradient
+Pre-read:
+https://rvsp.github.io/CSS/
+https://web.dev/learn/css/
+https://www.w3schools.com/css/
+https://css-tricks.com/
+https://github.com/rvsp/html-CSS/
