@@ -1,35 +1,21 @@
-.container{
-    border: 1px solid red;
-    display: flex;
-    width: 500px;
-    
-    /* flex-wrap: wrap;
-    flex-direction: row-reverse; */
-    flex-flow: row-reverse wrap;
-    /* flex-flow -> shortcut for (flex-wrap + flex-direction) */
-    justify-content: space-between;
-    padding: 20px 20px;
-   
-}
-
-.green, .red, .blue{
+body{
     padding: 20px;
-    margin: 10px;
-    flex-basis: 95px;
-    /*  */
-    
-    
-    
 }
 
-.green{
-    background-color: green;
+.grandparent{
+    padding: inherit;
+    border: 3px solid green;
+    width: 500px;
+    position: absolute;
+    left: 250px;
 }
 
-.red{
-    background-color: red;
+.parent{
+    padding: inherit;
+    border: inherit;
 }
 
-.blue{
-    background-color: blue;
+.child{
+    padding: inherit;
+    border: inherit;
 }
