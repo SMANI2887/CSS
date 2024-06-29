@@ -10,7 +10,7 @@ body{
     height: 200px;
     position: absolute;
     left: 250px;
-    /* linear-gradient */
-    background-image: linear-gradient(to bottom, orange, white, green)
+    /* radial-gradient */
+    background-image: radial-gradient(red, yellow,green)
 }
 
