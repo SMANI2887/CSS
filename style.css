@@ -11,6 +11,6 @@ body{
     position: absolute;
     left: 250px;
     /* radial-gradient */
-    background-image: radial-gradient(red, yellow,green)
+    background-image: radial-gradient(circle, red, yellow,green)
 }
 
