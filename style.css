@@ -1,21 +1,16 @@
 body{
     padding: 20px;
+    
 }
 
 .grandparent{
     padding: inherit;
     border: 3px solid green;
     width: 500px;
+    height: 200px;
     position: absolute;
     left: 250px;
+    /* linear-gradient */
+    background-image: linear-gradient(to bottom, orange, white, green)
 }
 
-.parent{
-    padding: inherit;
-    border: inherit;
-}
-
-.child{
-    padding: inherit;
-    border: inherit;
-}
